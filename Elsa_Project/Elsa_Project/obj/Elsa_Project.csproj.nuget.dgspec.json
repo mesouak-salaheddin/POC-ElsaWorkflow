@@ -1,0 +1,109 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\SalaheddinM\\source\\repos\\Elsa_Project\\Elsa_Project\\Elsa_Project.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\SalaheddinM\\source\\repos\\Elsa_Project\\Elsa_Project\\Elsa_Project.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\SalaheddinM\\source\\repos\\Elsa_Project\\Elsa_Project\\Elsa_Project.csproj",
+        "projectName": "Elsa_Project",
+        "projectPath": "C:\\Users\\SalaheddinM\\source\\repos\\Elsa_Project\\Elsa_Project\\Elsa_Project.csproj",
+        "packagesPath": "C:\\Users\\SalaheddinM\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\SalaheddinM\\source\\repos\\Elsa_Project\\Elsa_Project\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\SalaheddinM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.telerik.com/nuget": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "Elsa": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Activities.Http": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Core": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Designer.Components.Web": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Persistence.EntityFramework.Core": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Persistence.EntityFramework.PostgreSql": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Persistence.EntityFramework.Sqlite": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            },
+            "Elsa.Server.Api": {
+              "target": "Package",
+              "version": "[2.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
